@@ -45,12 +45,30 @@ func listHandler(writer http.ResponseWriter, request *http.Request) {
 	templates["list"].Execute(writer, responses)
 }
 
+type formData struct {
+	*Rsvp
+	Errors []string
+}
+
+// checks the value of the request.Method field, which returns the type of HTTP request that has been received.
+// For GET requests, the form template is executed.
+// There is no data to use when responding to GET requests,
+// but there is a need to provide the template with the expected data structure.
+func formHandler(writer http.ResponseWriter, request *http.Request) {
+	if request.Method == http.MethodGet {
+		templates["form"].Execute(writer, formData{
+			Rsvp: &Rsvp{}, Errors: []string{},
+		})
+	}
+}
+
 // entry point of the app
 func main() {
 
 	loadTemplates()
 	http.HandleFunc("/", welcomeHandler)
 	http.HandleFunc("/list", listHandler)
+	http.HandleFunc("/form", formHandler)
 
 	//create and http server that listens for requests on port 5000
 	// nil is to tell the server that requests should be processed using funcs registered with HandleFunc
