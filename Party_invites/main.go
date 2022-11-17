@@ -72,13 +72,33 @@ func formHandler(writer http.ResponseWriter, request *http.Request) {
 			Phone:      request.Form["phone"][0],
 			WillAttend: request.Form["willattend"][0] == "true",
 		}
-		//If it was not used a pointer, then my Rsvp value would be duplicated when it is added to the slice.
-		responses = append(responses, &responseData)
-
-		if responseData.WillAttend {
-			templates["thanks"].Execute(writer, responseData.Name)
+		//simple validation
+		errors := []string{}
+		if responseData.Name == "" {
+			errors = append(errors, "Please, insert your name")
+		}
+		if responseData.Email == "" {
+			errors = append(errors, "Please, insert your email")
+		}
+		if responseData.Phone == "" {
+			errors = append(errors, "Please, insert your Phone Number")
+		}
+		//The built-in len function to get the number of values in the errors slice, and if there are errors,
+		//then if the contents of the form template are rendered again, including the error messages in the data the template receives.
+		if len(errors) > 0 {
+			templates["form"].Execute(writer, formData{
+				Rsvp: &responseData, Errors: errors,
+			})
 		} else {
-			templates["sorry"].Execute(writer, responseData.Name)
+			//If there are no errors, then the thanks or sorry template is used.
+			//If it was not used a pointer, then my Rsvp value would be duplicated when it is added to the slice.
+			responses = append(responses, &responseData)
+
+			if responseData.WillAttend {
+				templates["thanks"].Execute(writer, responseData.Name)
+			} else {
+				templates["sorry"].Execute(writer, responseData.Name)
+			}
 		}
 	}
 }
