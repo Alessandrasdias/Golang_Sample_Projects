@@ -54,11 +54,32 @@ type formData struct {
 // For GET requests, the form template is executed.
 // There is no data to use when responding to GET requests,
 // but there is a need to provide the template with the expected data structure.
+
+//The ParseForm method processes the form data contained in an HTTP request and populates a map
+//which can be accessed through the Form field.
+//The form data is then used to create an Rsvp value
+
 func formHandler(writer http.ResponseWriter, request *http.Request) {
 	if request.Method == http.MethodGet {
 		templates["form"].Execute(writer, formData{
 			Rsvp: &Rsvp{}, Errors: []string{},
 		})
+	} else if request.Method == http.MethodPost {
+		request.ParseForm()
+		responseData := Rsvp{
+			Name:       request.Form["name"][0],
+			Email:      request.Form["email"][0],
+			Phone:      request.Form["phone"][0],
+			WillAttend: request.Form["willattend"][0] == "true",
+		}
+		//If it was not used a pointer, then my Rsvp value would be duplicated when it is added to the slice.
+		responses = append(responses, &responseData)
+
+		if responseData.WillAttend {
+			templates["thanks"].Execute(writer, responseData.Name)
+		} else {
+			templates["sorry"].Execute(writer, responseData.Name)
+		}
 	}
 }
 
