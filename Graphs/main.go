@@ -47,6 +47,9 @@ func (g *Graph) AddEdge(from, to int) {
 	if fromVertex == nil || toVertex == nil {
 		err := fmt.Errorf("Sorry, that's an invalid Edge! You are trying to add vertices that don't exists (%v ---> %v). =(", from, to)
 		fmt.Println(err.Error())
+	} else if contains(fromVertex.adjacent, to) {
+		err := fmt.Errorf("Sorry, that Edge already exists!You cannot add it again (%v ---> %v). =(", from, to)
+		fmt.Println(err.Error())
 	} else {
 		//add edge
 		fromVertex.adjacent = append(fromVertex.adjacent, toVertex)
@@ -99,6 +102,7 @@ func main() {
 
 	//test.AddVertex(0)
 
+	test.AddEdge(1, 2)
 	test.AddEdge(1, 2)
 	test.AddEdge(6, 2) // gives an error, but keeps running
 	test.AddEdge(3, 2)
