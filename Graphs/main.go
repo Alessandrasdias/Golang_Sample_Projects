@@ -37,10 +37,32 @@ func (g *Graph) AddVertex(k int) {
 	}
 }
 
-// addEdge
+// addEdge adds an edge to the graph
+func (g *Graph) AddEdge(from, to int) {
+
+	//get Vertex
+	fromVertex := g.getVertex(from)
+	toVertex := g.getVertex(to)
+	//check error
+	if fromVertex == nil || toVertex == nil {
+		err := fmt.Errorf("Sorry, that's an invalid Edge! You are trying to add vertices that don't exists (%v ---> %v). =(", from, to)
+		fmt.Println(err.Error())
+	} else {
+		//add edge
+		fromVertex.adjacent = append(fromVertex.adjacent, toVertex)
+	}
+}
 
 // 3rd - Implement a func that gets a vertex
-// getVertex
+// getVertex returns a pointer to the vertex  with a key integer
+func (g *Graph) getVertex(k int) *Vertex {
+	for i, v := range g.vertices {
+		if v.key == k {
+			return g.vertices[i]
+		}
+	}
+	return nil
+}
 
 // 4th - Implement Contains
 // Contains checks if the keys are already in the vertices of the graph
@@ -75,11 +97,11 @@ func main() {
 		test.AddVertex(i)
 	}
 
-	test.Print()
+	//test.AddVertex(0)
 
-	test.AddVertex(0)
-	test.AddVertex(0)
-	test.AddVertex(0)
-	test.AddVertex(0)
+	test.AddEdge(1, 2)
+	test.AddEdge(6, 2) // gives an error, but keeps running
+	test.AddEdge(3, 2)
+	test.Print()
 
 }
