@@ -25,7 +25,7 @@ type Vertex struct {
 // addVertex adds a vertex to the graph
 // It's a method to the Graph, so, it's a pointer receiver, and it takes a key
 // I will create a vertex inside the body that has k as the key, then it will be appended to the vertex list in the graph
-// Test it here. Better safe, than sorry =p
+// Test it here. Better safe, than sorry
 
 func (g *Graph) AddVertex(k int) {
 	g.vertices = append(g.vertices, &Vertex{key: k})
