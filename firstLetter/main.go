@@ -48,6 +48,5 @@ func repeatedCharacter(s string) byte {
 func main() {
 
 	ch := repeatedCharacter("abccbaacz")
-	fmt.Println(string(ch)) // because of how Go works the answer needs to be converted
-
+	fmt.Println(string(ch))
 }
