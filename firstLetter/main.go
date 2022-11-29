@@ -26,8 +26,8 @@ import "fmt"
 // Create a variable to store the number of repetitions
 // Range through the string
 // Check if the char has been seen in the charSet before
-// If the answerer is yes, stores the number of time it has been seen, gets out of the loop and returns the char
-// If the answerer is no keep looking
+// If the answer is yes, stores the number of time it has been seen, gets out of the loop and returns the char
+// If the answer is no keep looking
 // o(n)
 
 func repeatedCharacter(s string) byte {
@@ -48,6 +48,6 @@ func repeatedCharacter(s string) byte {
 func main() {
 
 	ch := repeatedCharacter("abccbaacz")
-	fmt.Println(string(ch)) // because of how Go works teh answerer needs to be converted
+	fmt.Println(string(ch)) // because of how Go works the answer needs to be converted
 
 }
