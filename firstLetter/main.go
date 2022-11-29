@@ -38,7 +38,7 @@ func repeatedCharacter(s string) byte {
 			rep = i
 			break
 		}
-		charSet[char] = i // guarantees the note "A letter a appears twice before another letter b if the second occurrence of a is before the second occurrence of b."
+		charSet[char] = i
 	}
 
 	return s[rep]
