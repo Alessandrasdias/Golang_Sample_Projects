@@ -37,4 +37,9 @@ https://github.com/Alessandrasdias/Golang_Sample_Projects/tree/main/maximum_suba
 
 Given an integer array nums, find the subarray which has the largest sum and return its sum.
 
+6 - Move Zeroes
+https://github.com/Alessandrasdias/Golang_Sample_Projects/tree/main/move_zeroes
+---------------------------------
+Given an integer array nums, move all 0's to the end of it while maintaining the relative order of the non-zero elements.
+
 
