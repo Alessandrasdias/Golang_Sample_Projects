@@ -31,5 +31,10 @@ https://github.com/Alessandrasdias/Golang_Sample_Projects/tree/main/firstLetter
 First Letter to Appear Twice
 Given a string s consisting of lowercase English letters, return the first letter to appear twice.
 
+5 - Maximum Subarray
+https://github.com/Alessandrasdias/Golang_Sample_Projects/tree/main/maximum_subarray
+---------------------------------
+
+Given an integer array nums, find the subarray which has the largest sum and return its sum.
 
 
