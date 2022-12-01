@@ -1,5 +1,20 @@
 # go_samples
 
+-----------------------------
+
+!! Comments are related to way I tried to solve the problems in my head first, there could be more than one answer, so I picked one and used to code
+
+-----------------------------
+
+!! The activities done are from: 
+
+-> Leet Code
+-> Youtube videos
+-> Freeman, Adam. Pro Go. Apress. Kindle Edition.
+-> GeeksforGeeks
+
+------------------------------
+
 Project trials 
 
 1 - Party Invites:
@@ -41,5 +56,10 @@ Given an integer array nums, find the subarray which has the largest sum and ret
 https://github.com/Alessandrasdias/Golang_Sample_Projects/tree/main/move_zeroes
 ---------------------------------
 Given an integer array nums, move all 0's to the end of it while maintaining the relative order of the non-zero elements.
+
+7 - Contains Duplicate
+https://github.com/Alessandrasdias/Golang_Sample_Projects/tree/main/contains_duplicate
+---------------------------------
+Given an integer array nums, return true if any value appears at least twice in the array, and return false if every element is distinct.
 
 
