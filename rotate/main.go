@@ -12,7 +12,7 @@ package main
 
 import "fmt"
 
-func leftRotate(nums []int, k int) []int {
+func rotateLeft(nums []int, k int) []int {
 	var newArray []int
 	for i := 0; i < k; i++ {
 		newArray = nums[1:]
@@ -31,7 +31,7 @@ func leftRotate(nums []int, k int) []int {
 // and then I will append to my new array the position of num[0]
 // nums gets my new array and then I can return it
 
-func rightRotate(nums []int, size int, k int) []int {
+func rotateRight(nums []int, size int, k int) []int {
 	var newArray []int
 	for i := size; i > k; i-- {
 		newArray = nums[1:]
@@ -43,7 +43,7 @@ func rightRotate(nums []int, size int, k int) []int {
 
 //same thing here but instead of having size, i just assign i to the length of nums
 
-func rightRotate2(nums []int, k int) []int {
+func rotateRight2(nums []int, k int) []int {
 	var newArray []int
 	for i := len(nums); i > k; i-- {
 		newArray = nums[1:]
@@ -57,11 +57,11 @@ func main() {
 	nums := []int{1, 2, 3, 4, 5, 6, 7}
 	nums2 := []int{-1, -100, 3, 99}
 
-	fmt.Println("Rotating to the left:", leftRotate(nums, 3))
-	fmt.Println("Rotating to the left + negatives:", leftRotate(nums2, 1))
-	fmt.Println("Rotating to the left + negatives:", leftRotate(nums2, 2))
-	fmt.Println("Rotating to the Right with size: ", rightRotate(nums, 7, 3))
-	fmt.Println("Rotating to the Right with size: + negatives:", rightRotate(nums2, 4, 2))
-	fmt.Println("Rotating to the Right: ", rightRotate2(nums, 3))
-	fmt.Println("Rotating to the Right + negatives: ", rightRotate2(nums2, 3))
+	fmt.Println("Rotating to the left:", rotateLeft(nums, 3))
+	fmt.Println("Rotating to the left + negatives:", rotateLeft(nums2, 1))
+	fmt.Println("Rotating to the left + negatives:", rotateLeft(nums2, 2))
+	fmt.Println("Rotating to the Right with size: ", rotateRight(nums, 7, 3))
+	fmt.Println("Rotating to the Right with size: + negatives:", rotateRight(nums2, 4, 2))
+	fmt.Println("Rotating to the Right: ", rotateRight2(nums, 3))
+	fmt.Println("Rotating to the Right + negatives: ", rotateRight2(nums2, 3))
 }
