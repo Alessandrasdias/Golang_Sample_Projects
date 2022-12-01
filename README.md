@@ -63,3 +63,7 @@ https://github.com/Alessandrasdias/Golang_Sample_Projects/tree/main/contains_dup
 Given an integer array nums, return true if any value appears at least twice in the array, and return false if every element is distinct.
 
 
+8 -  Rotate Array
+https://github.com/Alessandrasdias/Golang_Sample_Projects/tree/main/rotate
+---------------------------------
+Given an array, rotate the array to the right by k steps, where k is non-negative.
