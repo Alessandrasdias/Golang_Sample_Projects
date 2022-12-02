@@ -67,3 +67,8 @@ Given an integer array nums, return true if any value appears at least twice in 
 https://github.com/Alessandrasdias/Golang_Sample_Projects/tree/main/rotate
 ---------------------------------
 Given an array, rotate the array to the right by k steps, where k is non-negative.
+
+9 -  Remove K From Linked List
+https://github.com/Alessandrasdias/Golang_Sample_Projects/tree/main/remove-linked-list
+---------------------------------
+Given a singly linked list of integers l and an integer k, remove all elements from list l that have a value equal to k.
