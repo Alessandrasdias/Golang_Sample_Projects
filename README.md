@@ -27,7 +27,7 @@ Imagine that a friend has decided to host a New Year’s Eve party and that she 
 https://github.com/Alessandrasdias/Golang_Sample_Projects/tree/main/Graphs
 ---------------------------------
 An exercise on Graphs using GO
-Implementation of add Vertex and add Edge using the adjacency list, and slice for the list instead of the liked list in order to be more efficient, and to use a basic data structure provided by Golang.  
+Implementation of add Vertex and add Edge using the adjacency list, and slice for the list using a basic data structure provided by Golang.  
 
 
 3 - Two Sum 
