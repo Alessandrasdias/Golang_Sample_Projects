@@ -72,3 +72,10 @@ Given an array, rotate the array to the right by k steps, where k is non-negativ
 https://github.com/Alessandrasdias/Golang_Sample_Projects/tree/main/remove-linked-list
 ---------------------------------
 Given a singly linked list of integers l and an integer k, remove all elements from list l that have a value equal to k.
+
+10 - Rotate image
+https://github.com/Alessandrasdias/Golang_Sample_Projects/tree/main/rotate_image
+---------------------------------
+You are given an n x n 2D matrix representing an image.
+
+Rotate the image by 90 degrees (clockwise).
