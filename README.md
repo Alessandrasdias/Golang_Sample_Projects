@@ -12,6 +12,7 @@
 -> Youtube videos
 -> Freeman, Adam. Pro Go. Apress. Kindle Edition.
 -> GeeksforGeeks
+-> CodeSignal 
 
 ------------------------------
 
@@ -84,3 +85,8 @@ Rotate the image by 90 degrees (clockwise).
 https://github.com/Alessandrasdias/Golang_Sample_Projects/tree/main/findSubstrings
 ---------------------------------
 You have two arrays of strings, words and parts. Return an array that contains the strings from words, modified so that any occurrences of the substrings from parts are surrounded by square brackets []
+
+12 - Sudoku grid validation
+https://github.com/Alessandrasdias/Golang_Sample_Projects/tree/main/sudoku
+---------------------------------
+Sudoku is a number-placement puzzle. The objective is to fill a 9 × 9 grid with numbers in such a way that each column, each row, and each of the nine 3 × 3 sub-grids that compose the grid all contain all of the numbers from 1 to 9 one time.
