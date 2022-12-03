@@ -1,16 +1,26 @@
 // Singly-linked lists are already defined with this interface:
-// type ListNode struct {
-//   Value interface{}
-//   Next *ListNode
-// }
+//
+//	type ListNode struct {
+//	  Value interface{}
+//	  Next *ListNode
+//	}
+//
 // I can delete anywhere
 // I need to know who is my previous node and my current node
-//  current is l
+//
+//	current is l
+//
 // for every current that is different from nil
 // if current value == k, and my previous is not nil
 // l takes the place of next
 // if my previous is nil, then my previous.next becomes my current
 // if k != current value, my previous becomes my current
+package main
+
+type ListNode struct {
+	Value interface{}
+	Next  *ListNode
+}
 
 func solution(l *ListNode, k int) *ListNode {
 	var prev *ListNode
@@ -32,4 +42,3 @@ func solution(l *ListNode, k int) *ListNode {
 
 	return l
 }
-
