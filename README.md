@@ -2,7 +2,7 @@
 
 -----------------------------
 
-!! Comments are related to way I tried to solve the problems in my head first, there could be more than one answer, so I picked one and used to code
+!! Comments are related to way to solve the problems with logic first, there could be more than one answer, so I picked one and used to code
 
 -----------------------------
 
@@ -79,3 +79,8 @@ https://github.com/Alessandrasdias/Golang_Sample_Projects/tree/main/rotate_image
 You are given an n x n 2D matrix representing an image.
 
 Rotate the image by 90 degrees (clockwise).
+
+11 - Find substrings
+https://github.com/Alessandrasdias/Golang_Sample_Projects/tree/main/findSubstrings
+---------------------------------
+You have two arrays of strings, words and parts. Return an array that contains the strings from words, modified so that any occurrences of the substrings from parts are surrounded by square brackets []
