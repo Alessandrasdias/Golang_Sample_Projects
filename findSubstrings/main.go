@@ -9,7 +9,6 @@
 // Op 2, takes longer and more space
 // Create a pre allocated map for parts where the key is a string and the value is a struct that takes the length of parts
 // range through parts and add the parts to a struct
-//  Create another pre allocated map for the results where key is string and value is 0 that takes length of words
 // range through the words
 // result takes the value of the word
 // create a loop for the word where if there are any parts that exists inside the partmap

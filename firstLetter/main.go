@@ -23,7 +23,7 @@ import "fmt"
 
 // func repeatedCharacter
 // Create a map
-// Create a variable to store the number of repetitions
+// Create a variable to store the repetitions
 // Range through the string
 // Check if the char has been seen in the charSet before
 // If the answer is yes, stores the number of time it has been seen, gets out of the loop and returns the char
