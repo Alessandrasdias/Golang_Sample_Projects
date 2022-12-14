@@ -90,3 +90,8 @@ You have two arrays of strings, words and parts. Return an array that contains t
 https://github.com/Alessandrasdias/Golang_Sample_Projects/tree/main/sudoku
 ---------------------------------
 Sudoku is a number-placement puzzle. The objective is to fill a 9 × 9 grid with numbers in such a way that each column, each row, and each of the nine 3 × 3 sub-grids that compose the grid all contain all of the numbers from 1 to 9 one time.
+
+13 - Plus Minus 
+https://github.com/Alessandrasdias/Golang_Sample_Projects/tree/main/plusMinus
+---------------------------------
+Given an array of integers, calculate the ratios of its elements that are positive, negative, and zero. Print the decimal value of each fraction on a new line with  places after the decimal.
