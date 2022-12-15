@@ -2,7 +2,7 @@
 
 -----------------------------
 
-!! Comments are related to way to solve the problems with logic first, there could be more than one answer, so I picked one and used to code
+!! Comments are related to how to solve the problems with logic first, there could be more than one answer, so I picked one and used to code
 
 -----------------------------
 
