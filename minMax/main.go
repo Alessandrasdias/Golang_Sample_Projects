@@ -51,7 +51,7 @@ import (
 // what happens is, whatever that was on [0] has to be excluded from the sum of the max
 // and whatever is at [4] has to be excluded from sum of the min
 
-// Also, it's important to have it converted to int64 bc whe could have very large numbers
+// Also, it's important to have it converted to int64 bc we could have very large numbers
 
 func miniMaxSum(arr []int32) {
 	var min int64 = (int64(arr[0]))
