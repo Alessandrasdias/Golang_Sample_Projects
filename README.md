@@ -3,12 +3,12 @@
 -----------------------------
 ### Comments
 
-!!Comments are related to how to solve the problems with logic first, there could be more than one answer, so I picked one and used to code
+> Comments are related to how to solve the problems with logic first, there could be more than one answer, so I picked one and used to code
 
 -----------------------------
 ### Source of activities 
 
-!!The activities done are from: 
+> The activities done are from: 
 
 1. Leet Code
 2. Youtube videos
@@ -19,9 +19,9 @@
 
 ------------------------------
 
-##Project trials 
+## Project trials 
 
-|N| Name          | Description                                   
+|index| Name          | Description                                   
 |---| ------------- |:-------------:                                
 |1|[Party Invites](https://github.com/Alessandrasdias/Golang_Sample_Projects/tree/main/Party_invites)| Freeman, Adam. Pro Go. Apress. Kindle Edition.
 |2|[Graphs](https://github.com/Alessandrasdias/Golang_Sample_Projects/tree/main/Graphs)| An exercise on Graphs using GO.Implementation of add Vertex and add Edge using the adjacency list, and slice for the list using a basic data structure provided by Golang.  centered                                      
