@@ -1,3 +1,3 @@
 16 - Binary Search Tree
 
-Inserting data in a BST. Searching a node in a BST. 
+Inserting data in a BST, searching a node in a BST and using Recursion. 
