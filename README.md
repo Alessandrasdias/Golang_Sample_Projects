@@ -22,7 +22,7 @@
 ## Project trials 
 
 |Favorites  |index| Name          | Description                                   
-||---| ------------- |:-------------:                                
+||---| ------------- |:-------------:   |                             
 ||1|[Party Invites](https://github.com/Alessandrasdias/Golang_Sample_Projects/tree/main/Party_invites)| Freeman, Adam. Pro Go. Apress. Kindle Edition.
 ||2|[Graphs](https://github.com/Alessandrasdias/Golang_Sample_Projects/tree/main/Graphs)| An exercise on Graphs using GO.Implementation of add Vertex and add Edge using the adjacency list, and slice for the list using a basic data structure provided by Golang.                                     
 |*|3|[Two Sum](https://github.com/Alessandrasdias/Golang_Sample_Projects/tree/main/two_sum) |Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
