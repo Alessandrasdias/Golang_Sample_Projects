@@ -1,5 +1,6 @@
-//TODO
+// TODO
 // 1st create a global slice with the possible strings
+package main
 
 var table = []string{"", "", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"}
 
