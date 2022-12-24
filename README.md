@@ -39,4 +39,5 @@
 |14|[Min Max sum  ](https://github.com/Alessandrasdias/Golang_Sample_Projects/tree/main/minMax) |Given five positive integers, find the minimum and maximum values that can be calculated by summing exactly four of the five integers. Then print the respective minimum and maximum values as a single line of two space-separated long integers.
 |15|[Time Conversion ](https://github.com/Alessandrasdias/Golang_Sample_Projects/tree/main/time_conversion) |Given a time in 12-hour AM/PM format, convert it to military (24-hour) time. Note: - 12:00:00AM on a 12-hour clock is 00:00:00 on a 24-hour clock.- 12:00:00PM on a 12-hour clock is 12:00:00 on a 24-hour clock.
 |16|[Binary Search tree ](https://github.com/Alessandrasdias/Golang_Sample_Projects/tree/main/bst) | Inserting data in a BST, searching a node in a BST and using Recursion. 
+|17|[Kth Largest Element in an Array ](https://github.com/Alessandrasdias/Golang_Sample_Projects/tree/main/kthLargest) | Given an integer array nums and an integer k, return the kth largest element in the array. Using Quick Sort and recursion
 
