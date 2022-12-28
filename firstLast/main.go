@@ -58,5 +58,7 @@ func searchRange(nums []int, target int) []int {
 	return []int{start, end}
 }
 
-//Space O(1)
-//Time  O(log n)
+// Space O(1)
+// Time  O(log n)
+// Runtime 6 ms
+// Memory 3.9 MB
