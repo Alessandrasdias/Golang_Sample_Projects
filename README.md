@@ -43,4 +43,4 @@
 |16 *|[Binary Search tree ](https://github.com/Alessandrasdias/Golang_Sample_Projects/tree/main/bst) | Inserting data in a BST, searching a node in a BST and using Recursion. 
 |17 *|[Kth Largest Element in an Array ](https://github.com/Alessandrasdias/Golang_Sample_Projects/tree/main/kthLargest) | Given an integer array nums and an integer k, return the kth largest element in the array. Using Quick Sort and recursion
 |18 *|[Find First and Last Position of Element in Sorted Array - T:O(logN) S:O(1) ](https://github.com/Alessandrasdias/Golang_Sample_Projects/tree/main/firstLast) |Given an array of integers nums sorted in non-decreasing order, find the starting and ending position of a given target value.
-
+|19  *|[Maximum and Minimum Depth of Binary Tree](https://github.com/Alessandrasdias/Golang_Sample_Projects/tree/main/minAndMaxDepth) |Given the root of a binary tree, return its max/min depth. (dfs/recursion)
