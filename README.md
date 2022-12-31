@@ -48,3 +48,4 @@
 |21  *|[Binary Tree Right Side View](https://github.com/Alessandrasdias/Golang_Sample_Projects/tree/main/btRightView) |Given the root of a binary tree, imagine yourself standing on the right side of it, return the values of the nodes you can see ordered from top to bottom. (dfs/recursion)
 |22|[Count Complete Tree Nodes](https://github.com/Alessandrasdias/Golang_Sample_Projects/tree/main/compTreeNodes) |Given the root of a complete binary tree, return the number of the nodes in the tree.
 |23 *|[Validate Binary Search Tree T:O(N) S:O(n)](https://github.com/Alessandrasdias/Golang_Sample_Projects/tree/main/bstValidation) |Given the root of a binary tree, determine if it is a valid binary search tree (BST).
+|24 *|[ Number of Islands](https://github.com/Alessandrasdias/Golang_Sample_Projects/tree/main/numOfIslands) |Given an m x n 2D binary grid grid which represents a map of '1's (land) and '0's (water), return the number of islands.
