@@ -47,4 +47,4 @@
 |20|[ Binary Tree Level Order Traversal](https://github.com/Alessandrasdias/Golang_Sample_Projects/tree/main/levelOrderBT) |Given the root of a binary tree, return the level order traversal of its nodes' values. (i.e., from left to right, level by level).
 |21  *|[Binary Tree Right Side View](https://github.com/Alessandrasdias/Golang_Sample_Projects/tree/main/btRightView) |Given the root of a binary tree, imagine yourself standing on the right side of it, return the values of the nodes you can see ordered from top to bottom. (dfs/recursion)
 |22|[Count Complete Tree Nodes](https://github.com/Alessandrasdias/Golang_Sample_Projects/tree/main/compTreeNodes) |Given the root of a complete binary tree, return the number of the nodes in the tree.
- 
+|23 *|[Validate Binary Search Tree T:O(N) S:O(n)](https://github.com/Alessandrasdias/Golang_Sample_Projects/tree/main/bstValidation) |Given the root of a binary tree, determine if it is a valid binary search tree (BST).
